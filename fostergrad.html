@@ -1,0 +1,87 @@
+<body>
+  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="/">Home</a>
+			<a class="navbar-brand" href="/signIn">Sign In</a>
+			<a class="navbar-brand" href="/contact">Contact</a>
+			<a class="navbar-brand" href="/about">About</a>
+		</div>
+	</nav>
+	<h1>Welcome to Fostergrad.com!</h1>
+	<h2>Explore your possibilities</h2>
+</body>
+
+<template name="signUp">
+
+	<div class="form">
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<div class="rowlabel">
+		<label for="name">Username:</label><br>
+	</div>
+		<input id="name" class="input" name="name" type="text" value="" size="30" style="width:200px; height:25px; border-radius: 150px; border:1px solid #595959; text-align: center"><br>
+	</div>
+	<div class="row">
+		<label for="email">Email:</label><br>
+		<input id="email" class="input" name="email" type="text" value="" size="30" style="width:200px; height:25px; border-radius: 150px; border:1px solid #595959; text-align: center"><br>
+	</div>
+	<div class="row">
+		<label for="password">Password:</label><br>
+		<input id="password" class="input" name="email" type="text" value="" size="30" style="width:200px; height:25px; border-radius: 150px; border:1px solid #595959; text-align: center"><br>
+	</div>
+	<button class="myButton">Submit</button>
+</form>
+</div>
+	
+</template>
+
+<template name="signIn">
+
+	<div class="form">
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<div class="rowlabel">
+		<label for="name">Username:</label><br>
+	</div>
+		<input id="name" class="input" name="name" type="text" value="" size="30" style="width:200px; height:25px; border-radius: 150px; border:1px solid #595959; text-align: center"><br>
+	</div>
+	<div class="row">
+		<label for="password">Password:</label><br>
+		<input id="password" class="input" name="email" type="text" value="" size="30" style="width:200px; height:25px; border-radius: 150px; border:1px solid #595959; text-align: center"><br>
+	</div>
+	<button class="myButton">Submit</button>
+</form>
+</div>
+	
+</template>
+
+<template name="contact">
+
+	<div class="form">
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<div class="rowlabel">
+		<label for="name">Name:</label><br>
+	</div>
+		<input id="name" class="input" name="name" type="text" value="" size="30" style="width:200px; height:25px; border-radius: 150px; border:1px solid #595959; text-align: center"><br>
+	</div>
+	<div class="row">
+		<label for="number">Number:</label><br>
+		<input id="number" class="input" name="number" type="text" value="" size="30" style="width:200px; height:25px; border-radius: 150px; border:1px solid #595959; text-align: center"><br>
+	</div>
+	<div class="row">
+		<label for="email">Email:</label><br>
+		<input id="email" class="input" name="email" type="text" value="" size="30" style="width:200px; height:25px; border-radius: 150px; border:1px solid #595959; text-align: center"><br>
+	</div>
+	<div class="row">
+		<label for="message">Message:</label><br>
+		<textarea id="message" class="input" name="message" rows="7" cols="50" style="border:1px solid #595959"></textarea><br>
+	</div>
+	<button class="myButton">Submit</button>
+</form>
+</div>
+</template>
+
+<template name="about">
+	
+</template>
